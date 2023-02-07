@@ -1,0 +1,17 @@
+name: cruniftp
+version: 0.1.0
+
+authors:
+  - mike.reider <mike.reider@gmail.com>
+
+targets:
+  cruniftp:
+    main: src/cruniftp.cr
+
+dependencies:
+  ssh2:
+    github: spider-gazelle/ssh2.cr
+
+crystal: 1.7.2
+
+license: MIT
